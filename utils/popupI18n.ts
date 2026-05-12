@@ -1,4 +1,4 @@
-export const defaultPopupLanguage = 'zh-CN';
+export const defaultPopupLanguage = 'en';
 
 export type PopupLanguage = 'zh-CN' | 'en';
 

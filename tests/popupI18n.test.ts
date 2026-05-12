@@ -25,9 +25,9 @@ test('popup copy switches between Chinese and English', () => {
   assert.equal(getPopupCopy('en').savedStatus, 'Saved');
 });
 
-test('popup language falls back to Chinese for unsupported values', () => {
-  assert.equal(defaultPopupLanguage, 'zh-CN');
+test('popup language falls back to English for unsupported values', () => {
+  assert.equal(defaultPopupLanguage, 'en');
   assert.equal(normalizePopupLanguage('en'), 'en');
-  assert.equal(normalizePopupLanguage('ja'), 'zh-CN');
-  assert.equal(normalizePopupLanguage(null), 'zh-CN');
+  assert.equal(normalizePopupLanguage('ja'), 'en');
+  assert.equal(normalizePopupLanguage(null), 'en');
 });

@@ -1,6 +1,6 @@
 {
   "name": "twitter-scroll-to-top-button",
-  "description": "manifest.json description",
+  "description": "Add a customizable scroll-to-top button to Twitter/X.",
   "private": true,
   "version": "1.0.0",
   "type": "module",
